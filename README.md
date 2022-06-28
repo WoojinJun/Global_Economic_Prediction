@@ -1,1 +1,1 @@
-# Global_Economic_Prediction
+# Global Economic Prediction
