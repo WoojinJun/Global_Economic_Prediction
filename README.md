@@ -1,59 +1,50 @@
-# Global Economic Prediction
-# WR Investments  
----  
+# Global Economic Prediction - Crude Oil
 
-Goldman Sachs recently purhcased 87 homes in Florida. We were hired by Goldman to offer our services and help them chose which zip code is best for their next investment.  
-
-![Austin, TX](Images/Dallas%2CTX.jpeg)
-*Austin, TX*  
+*Woojin Jun* 
 
 
----
-## Study Authors  
+Due to the war between Ukraine and Russia and limitations on gas supplies, crude oil price has increased since Covid 19. It seemed that the price met the peak in June, and in July, the price decreased about 15%. 
 
-**Rishi Ahuja**  
-  
+However, Berkshire Hathaway recently invested five billion dollars in Occidental Petroleum. I am investigating the relationship between crude oil price and Occidental Petroleum stock price, and predicting the future peak of crude oil price. 
 
-**Woojin Jun**  
-
+![Oxy-petroleum](images/oxy-petroleum.jpeg)
 
 ---
 ## Business understanding  
 
-Stakeholder: Goldman Sachs 
-Business Problem: Reccomend to Goldman Sachs where they should invest in their next large home purchase. 
+Stakeholder: Occidental Petroleum
 
-Our goal is to inform Goldman on which city to invest in. We settled on Texas because Texas' house prices are lower than the national average. 
-
-![House Price](Images/House%20Price%201996-2018.png)
-
-
-We decided to focus on the House Prices during the Subprime Morgage Crisis of 2007-2010
+Business Problem: Find relationship between crude oil and Occidental Petroleum stock price, and predicting the future peak of crude oil price.
 
 ---  
 ## Data understanding  
 
-The analysis data was provided by Zillow and included data from 1996 to 2018. The dataset included information about 15,000 zip codes and after data cleaning, we used 1,000 data points.  Our main Target Predictor the data from October 2007 to November 2011. 
+The data of monthly crude oil price from January 1946 to July 2022 and monthly Occidental Petroleum stock price from April 1980 to July 2022 was gathered from TradingView and MacroTrends. 
 
+Among some economic factors, such as Dow Jones, gold, federal funds, and crude oil, crude oil has the highest correlation with the petroleum stock price. 
 
-
- The goal of the project was to pick a region of the country and determine what the “5 best zip codes for investment” would be for Goldman.  We narrowed it down to Texas but then had to determine what zip code is the most stable. We decided on seeing what had the least drop in price during the SubPrime Morgage Crisis. As you see below these Zip Code's in Dallas were the best.   
-
-![Zip Code Map](Images/Dallas%20Zip%20Code%20Map.png)
-
----
+![correlation](images/price.png)
 
 
 ---
 ## Models  
 
-After narrowing down our zipcodes to invest, we used ARIMA model to predict and forecast future house prices. Root mean square error was 75,698 dollars and has 51% accuracy But still the prediction model and the actual price both rise, we can regard this as buying signal. 
+After cleaning data, I used two different model to predict and forecast future gas prices. First, I used ARIMA model.
 
-![Arima Model](Images/Arima%20Model.png)
+RMSE for ARIMA Train model was $9.64
 
-As shown in the previous map, moving average also predicts that northern suburb has high chance and high percentage increasing of house price.
+RMSE for ARIMA Test model was $18.64
 
-![Moving Average](Images/Arima%20Model.png)
+The highest peak of gas price in next 10 years is expected on July 2027
+
+
+![Arima Model](Images/ARIMA.png)
+
+Next, I used Facebook Prophet. 
+
+
+
+![Facebook](Images/facebook.png)
 
 ---
 
@@ -61,19 +52,6 @@ As shown in the previous map, moving average also predicts that northern suburb 
 ---
 ## Recommendations  
 
-Based on our data, our main findings were the following zip codes. :  
-![Recommendations](Images/Recommendations.png)
+Short term price adjustment is expected in November 2023, but rising trend is expected until July 2027. For the next 5 years, high demand and high price of crude oil require expension in crude oil exploration and supply chains. The rising trend in Occidental Petroleum stock price is expected.  
 
 ---
-## Next Steps  
-
-We recommend 3 different areas in which to concentrate for future study and analysis.  
-
-1. Exploring recent house price changes and see how that affects our model.   
-
-2. Study and explore the impact on the change in the Federal Interest Rate  
-
-3. Explore the change in government policy on large corporations buying houses.   
-
-
-```
