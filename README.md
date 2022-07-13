@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Global Economic Prediction - Crude Oil
 
 *Woojin Jun* 
@@ -39,13 +39,15 @@ RMSE for ARIMA Test model was $18.64
 The highest peak of gas price in next 10 years is expected on July 2027
 
 
-![Arima Model](Images/ARIMA.png)
+![Arima Model](images/ARIMA.png)
 
 Next, I used Facebook Prophet. 
 
 
 
-![Facebook](Images/facebook.png)
+![Facebook](images/facebook.png)
+
+RMSE for ARIMA Test model was $14.08
 
 ---
 
@@ -57,5 +59,3 @@ Short term price adjustment is expected in November 2023, but rising trend is ex
 
 ---
 =======
-
->>>>>>> eae3538802029522018de8ff0d09dc38140045a1
