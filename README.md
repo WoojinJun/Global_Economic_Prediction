@@ -1,20 +1,3 @@
-├── README.md
-├── data
-│   └──  bigml_59c28831336c6604c800002a.csv
-├── OldNotebooks
-|   ├──AndyNotebook.ipynb
-|   ├──WJ_note.ipynb
-|   └──WJ_note2.ipynb
-├── img
-│   ├── ChurnPercentage.png
-│   ├── Customer_Service_Call_Churn.png
-│   ├── Distribution_Total_Day_Charge.png
-│   ├── FeatureImportance.png
-│   ├── International_Plan_Churn.png
-│   └── Percentage_Customer_Churn.png
-├── .gitignore
-├── SyriaTelPresentation.pdf
-└── SyriaTelecommunication.ipynb
 
 
 
