@@ -1,9 +1,9 @@
 
 ## Repo Navigation
-[FinalNotebook](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/FinalNotebook.ipynb)
+[Final Jupyter Notebook.ipynb](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/FinalNotebook.ipynb)
 
 
-[Presentation](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/Global_Economic_Prediction.pdf)
+[Presentation.pdf](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/Global_Economic_Prediction.pdf)
 ```
 .
 ├── README.md
