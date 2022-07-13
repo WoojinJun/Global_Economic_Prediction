@@ -59,7 +59,3 @@ Short term price adjustment is expected in November 2023, but rising trend is ex
 
 ---
 =======
-<<<<<<< HEAD
-=======
-
->>>>>>> d87bf9f29a2a7e46a83d87a3cd3bfe73f2bf4e10
