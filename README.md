@@ -1,5 +1,7 @@
 
 ## Repo Navigation
+[FinalNotebook](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/FinalNotebook.ipynb)
+[Presentation](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/Global_Economic_Prediction.pdf)
 ```
 .
 ├── README.md
@@ -18,9 +20,9 @@
 │   ├── oxy-petroleum.jpeg
 │   └── heatmap.png
 ├── .gitignore
-├── [FinalNotebook.ipynb](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/FinalNotebook.ipynb)
+├── FinalNotebook.ipynb
 ├── ScratchNotebook.ipynb
-├── [Global_Economic_Prediction.pdf](https://github.com/WoojinJun/Global_Economic_Prediction/blob/main/Global_Economic_Prediction.pdf)
+├── Global_Economic_Prediction.pdf
 └── Jupyter_Notebook.pdf
 ```
 
