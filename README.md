@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Global Economic Prediction - Crude Oil
 
 *Woojin Jun* 
@@ -58,4 +58,3 @@ Short term price adjustment is expected in November 2023, but rising trend is ex
 ---
 =======
 
->>>>>>> eae3538802029522018de8ff0d09dc38140045a1
