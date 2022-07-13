@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Global Economic Prediction - Crude Oil
 
 *Woojin Jun* 
@@ -55,3 +56,6 @@ Next, I used Facebook Prophet.
 Short term price adjustment is expected in November 2023, but rising trend is expected until July 2027. For the next 5 years, high demand and high price of crude oil require expension in crude oil exploration and supply chains. The rising trend in Occidental Petroleum stock price is expected.  
 
 ---
+=======
+
+>>>>>>> eae3538802029522018de8ff0d09dc38140045a1
