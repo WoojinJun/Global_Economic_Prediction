@@ -4,21 +4,24 @@
 .
 ├── README.md
 ├── data
-│   └──  bigml_59c28831336c6604c800002a.csv
-├── OldNotebooks
-|   ├──AndyNotebook.ipynb
-|   ├──WJ_note.ipynb
-|   └──WJ_note2.ipynb
-├── img
-│   ├── ChurnPercentage.png
-│   ├── Customer_Service_Call_Churn.png
-│   ├── Distribution_Total_Day_Charge.png
-│   ├── FeatureImportance.png
-│   ├── International_Plan_Churn.png
-│   └── Percentage_Customer_Churn.png
+│   ├── gold.csv
+│   ├── crude_oil.csv
+│   ├── dow_jones.csv
+│   ├── fed_funds.csv
+│   └──  OXY_Historical_Data.csv
+├── .ipynb_checkpoints
+│   ├──ScratchNotebook-checkpoint.ipynb
+├── images
+│   ├── ARIMA.png
+│   ├── facebook.png
+│   ├── price.png
+│   ├── oxy-petroleum.jpeg
+│   └── heatmap.png
 ├── .gitignore
-├── SyriaTelPresentation.pdf
-└── SyriaTelecommunication.ipynb
+├── FinalNotebook.ipynb
+├── ScratchNotebook.ipynb
+├── Global_Economic_Prediction.pdf
+└── Jupyter_Notebook.pdf
 ```
 
 
