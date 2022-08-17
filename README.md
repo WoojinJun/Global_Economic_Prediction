@@ -77,7 +77,7 @@ Next, I used Facebook Prophet.
 
 ![Facebook](images/facebook.png)
 
-RMSE for ARIMA Test model was $14.08
+RMSE for Meta Prophet Test model was $14.08
 
 ---
 
